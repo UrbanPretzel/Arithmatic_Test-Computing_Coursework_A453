@@ -16,12 +16,13 @@ For the teacher program, this program will iterpret the CSV file and complete th
 ..4. Show the average score for each student in a class (Sorted highest to lowest)
 
 ##### Things I plan to add...
-..* The students last three scores will be stored on the same line
-..* Sort out any bugs under the issues tab
-..* Add an easter egg?
+1. The students last three scores will be stored on the same line
+2. Sort out any bugs under the issues tab
+3. Add an easter egg?
 
 
 >This is my first proper python project and all required files are within this repo credited under open source Apache License © Conor >Hennessy 2016
 
 ---
+
 ###### © Conor Hennessy 2016
