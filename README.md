@@ -24,6 +24,7 @@ For the teacher program, this program will iterpret the CSV file and complete th
 
 
 
->This is my first proper python project and all required files are within this repo credited under open source Apache License © Conor >Hennessy 2016
+>This is my first proper python project and all required files are within this repo credited under open source Apache License 
+>© Conor Hennessy 2016
 ---
 ###### © Conor Hennessy 2016
