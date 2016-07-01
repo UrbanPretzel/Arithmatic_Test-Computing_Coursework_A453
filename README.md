@@ -10,19 +10,20 @@ The question is displayed to the user to answer and the score updated; With each
 
 #### Teacher Program
 For the teacher program, this program will iterpret the CSV file and complete the following functions:
-..1. Show the stored data for a class 
-..2. Show the data for a class in alphabetical order with their highest result
-..3. Show the highest test score for each student in a class (Sorted highest to lowest)
-..4. Show the average score for each student in a class (Sorted highest to lowest)
+1. Show the stored data for a class 
+2. Show the data for a class in alphabetical order with their highest result
+3. Show the highest test score for each student in a class (Sorted highest to lowest)
+4. Show the average score for each student in a class (Sorted highest to lowest)
 
-##### Things I plan to add...
-1. The students last three scores will be stored on the same line
-2. Sort out any bugs under the issues tab
+##### Things I plan to do...
+1. Fix bugs
+2. Add some of the things below
+..* The students last three scores will be stored on the same line
+..* Sort out any bugs under the issues tab
 3. Add an easter egg?
 
 
 >This is my first proper python project and all required files are within this repo credited under open source Apache License © Conor >Hennessy 2016
 
 ---
-
 ###### © Conor Hennessy 2016
