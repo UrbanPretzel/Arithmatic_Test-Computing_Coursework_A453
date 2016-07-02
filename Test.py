@@ -1,5 +1,4 @@
-#Task 1 Controlled assessment - Conor Hennessy - Centre number: 10809 - November 2014
-#Importing respective libraries
+#Test program - Conor Hennessy - November 2014~2016
 import random
 
 ##Defining function to generate two random numbers
@@ -73,4 +72,3 @@ def RunQuiz():
 #Prevent from running if this module is being imported by another module
 if __name__ == '__main__':
     print(RunQuiz())
-

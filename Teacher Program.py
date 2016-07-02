@@ -1,4 +1,4 @@
-# Importing python modules
+#Teacher program - Conor Hennessy - November 2014~2016
 import csv
 import operator
 
@@ -98,5 +98,5 @@ def TeacherMenu():
     else:
         studentAdverageScore()
 
-#Run the main menu function to run the program with different outputs for teachers and students
-MainMenu()
+#Run the menu for the inputs of the teacher
+TeacherMenu()

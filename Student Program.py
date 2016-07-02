@@ -1,4 +1,4 @@
-#---
+#Student program - Conor Hennessy - November 2014~2016
 import Test
 
 ##Defining RunTest function to run task one code 
@@ -46,4 +46,3 @@ if __name__ == '__main__':
     RunTest()
     from Test import name, score
     Savedata()
-
