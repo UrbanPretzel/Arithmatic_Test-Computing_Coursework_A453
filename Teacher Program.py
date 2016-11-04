@@ -2,20 +2,35 @@
 import csv
 import operator
 
+#Defining a function for asking what class to use when sorting
+def ClassChecker():
+    global classset
+    classset = input ("What class would you like to select? ")
+    if classset == 'x1' or classset == 'x2' or classset == 'x3':
+        return '\n'
+    else:
+        print("[Please input in the form: x1, x2 or x3]")
+        return ClassChecker()
+            
 # Putting the data into a dictionary
 def FileZipper():
-    with open (str(classset)+" Class Results.csv","r") as record:
-        lines = record.readlines()[1:]
-        global classData
-        classData = []
-        for row in lines:
-            student = row.split(",")
-            Headers = ['name','test 1','test 2','test 3']
-            data = zip(Headers,student)
-            classDataDict = dict (data)
-            classData.append(classDataDict)
-        return classData
-
+    try:
+        with open (str(classset)+" Class Results.csv","r") as record:
+            lines = record.readlines()[1:]
+            global classData
+            classData = []
+            for row in lines:
+                student = row.split(",")
+                Headers = ['name','test 1','test 2','test 3']
+                data = zip(Headers,student)
+                classDataDict = dict (data)
+                classData.append(classDataDict)
+            return classData
+    except FileNotFoundError:
+        print("\nUnable to find file for class: "+classset+". Please try again...")
+        ClassChecker()
+        FileZipper()
+        
 ##Functions for manipulating the data in the CSV files  for sorting the data)
 #Function to sort names alphabetically in the list of dictionary
 def ClassNameSort():
